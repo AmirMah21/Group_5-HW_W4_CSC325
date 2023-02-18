@@ -32,6 +32,6 @@ public class Executive extends StaffEmployee
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+       return this.payRate + this.bonus;
     }
 }
