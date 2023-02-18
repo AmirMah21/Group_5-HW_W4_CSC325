@@ -40,7 +40,7 @@ public class TempEmploee extends StaffEmployee
     }
 
     //-----------------------------------------------------------------
-    // TODO4: Returns information about this hourly employee as a string.
+    // TODO4: Returns information about this hourly employee as a string. - Done
     //-----------------------------------------------------------------
     public String toString()
     {
