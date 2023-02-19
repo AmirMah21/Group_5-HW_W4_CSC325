@@ -10,7 +10,7 @@ public class Staff {
     public Staff() {
         staffList = new StaffMember[6];
 
-        // TODO 1: Add 6 emploees to the staffList
+        // TODO 1: Add 6 employees to the staffList - Done
         ((Executive) staffList[0]).awardBonus(500.00);
         ((TempEmploee) staffList[3]).addHours(40);
 
