@@ -11,11 +11,6 @@ public class Staff {
         staffList = new StaffMember[6];
 
         // TODO 1: Add 6 employees to the staffList - Done
-        ((Executive) staffList[0]).awardBonus(500.00);
-        ((TempEmploee) staffList[3]).addHours(40);
-
-        ((Executive) staffList[0]).awardBonus(500.00);
-        ((TempEmployee) staffList[3]).addHours(40);
         staffList[0] = new Executive("Tim", "AAA", "111-111-1111", "111-11-1111", 5.00);
         staffList[1] = new StaffEmployee("Bob", "AAA", "222-222-2222", "222-22-2222", 3.00);
         staffList[2] = new StaffEmployee("Rain", "AAA", "333-333-3333", "333-33-3333", 4.00);
@@ -25,6 +20,7 @@ public class Staff {
         ((StaffEmployee) staffList[1]).pay();
         ((StaffEmployee) staffList[2]).pay();
         ((StaffEmployee) staffList[3]).pay();
+        ((Executive) staffList[0]).awardBonus(500.00);
         ((TempEmployee) staffList[4]).addHours(40);
         ((Intern) staffList[5]).pay();
     }
